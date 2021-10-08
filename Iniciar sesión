@@ -1,0 +1,2 @@
+Se le solicita al usuario iniciar sesion o crear una cuenta
+En este caso usaremos micro servicios de google paa iniciar sesion y solo recibir el id de inicio de sesion, asi, no almacenamos la contraseña
