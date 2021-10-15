@@ -1,0 +1,24 @@
+System Feature: Cambio de contraseña para la plataforma comunidad
+ 
+ Descripcción: Método de backend que permite que un usuario cree una nueva contraseña para acceder a la plataforma de comunidad ITAM.
+ 
+ Prioridad: Alta
+ 
+ Requerimientos: 
+  Hashear la nueva contraseña para incrementar la seguridad
+  Que el usuario conozca la vieja contraseña y su usuario para poderla cambiar
+  Que la contraseña cumpla con 8 caracteres y por lo menos uno sea mayúsucula, otro sea un número, y otro un símbolo especial
+  Que al cambiar la contraseña, se le avise el usuario que deberá de cambiar su contraseña de nuevo en 6 meses
+  Que en una casilla se deba insertar el viejo password, en otra el nuevo, y en una tercera la confirmación de la nueva contraseña
+ 
+ Beneficios: 
+  Mayor seguridad percibida para el usuario
+  Constante actualización de datos en la DB
+ 
+ Costo: 
+  Espacio en la DB para guardar el hash
+  Tiempo de procesamiento para el hasheo
+
+Riesgo: 7
+  
+Prioridad: Alta
